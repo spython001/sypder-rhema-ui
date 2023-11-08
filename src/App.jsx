@@ -1,10 +1,11 @@
 import './App.css'
+import QuotesPage from './components/qoutesPage/QuotesPage'
 
 function App() {
 
   return (
     <>
-    hey
+    <QuotesPage/>
     </>
   )
 }
