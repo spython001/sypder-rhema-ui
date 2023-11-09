@@ -5,30 +5,30 @@ export default function Sidebar() {
     <div className='sidebar'>
         <div className="wrapper">
             <ul className="sidebarList">
-                <li className="sidebarListItem">
+                <li>
                   <i className="sidebarIcon fa-solid fa-shuttle-space"></i>
                   <span className='sidebarText'>Home</span>
                 </li>
 
-                <li className="sidebarListItem">
+                <li>
                   <i className="sidebarIcon fa-solid fa-satellite"></i>
                   <span className="sidebarText">About</span>
                 </li>
 
-                <li className="sidebarListItem">
+                <li>
                   <i className="sidebarIcon fa-solid fa-satellite-dish"></i>
-                  <span className="sidebarText">Contact</span>
+                  <span className="sidebarText contact">Contact</span>
                 </li>
 
-                <li className="sidebarListItem">
+                <li>
                   <i className="sidebarIcon fa-solid fa-file-word"></i>
                   <span className="sidebarText">Write</span>
                 </li>
 
-                <div className="li sidebarListItem">
+                <li className='lastChild'>
                   <i className="sidebarIcon fa-solid fa-meteor fa-beat"></i>
                   <span className="sidebarText">Light</span>
-                </div>
+                </li>
             </ul>
         </div>
     </div>
