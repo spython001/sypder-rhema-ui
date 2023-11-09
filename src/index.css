@@ -5,4 +5,16 @@
 
 }
 
+body::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #ffffe0;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #1e1e24;
+}
+
 
