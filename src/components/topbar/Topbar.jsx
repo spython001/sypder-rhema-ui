@@ -10,7 +10,7 @@ export default function Topbar() {
         
         <div className="topRight">
           <div className="profile">
-            <i className="topIcon fa-solid fa-meteor fa-beat"></i>
+          <i className="topIcon fa-solid fa-gear"></i>
             <div className="options">
                 <span>Logout</span>
             </div>
