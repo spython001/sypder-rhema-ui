@@ -42,7 +42,12 @@
             .topIcon{
                 font-size: 25px;
                 margin-top: 10px;
+                cursor: pointer;
                 
+                &:hover{
+                    color: gray;
+                    transition: 0.2s ease;
+                }
             }
 
             .options{
