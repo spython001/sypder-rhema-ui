@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #ffffe0;
+  background: gray;
 }
 
 body::-webkit-scrollbar-thumb {
