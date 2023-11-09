@@ -1,6 +1,6 @@
 // QuotePage.js
 import  { useState } from 'react';
-import quotesData from '../../quotes'; // Assuming quotes.js is in the same directory
+import quotesData from "../../quotes.jsx" // Assuming quotes.js is in the same directory
 
 const QuotesPage = () => {
     const [quotes, setQuotes] = useState(quotesData);
