@@ -5,7 +5,7 @@ const quotes = [
       body: 
         <span> 
           &quot;Happiness as the goal of our lives is a very problematic notion. If we learnt anything from psychoanalysis, 
-          it is that we humans are very creative in sabotaging our pursuit of happiness. Happiness is aconfused notion,
+          it is that we humans are very creative in sabotaging our pursuit of happiness. Happiness is a confused notion,
           basically it relies on the subjects inability or unreadiness to fully confront the consequences of his or her desires&quot;
           - <span className="author">Slavoj Zizek</span>
         </span>

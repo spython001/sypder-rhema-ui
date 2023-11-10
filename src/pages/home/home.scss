@@ -3,8 +3,14 @@
     background-color: var(--main-color);
     display: flex;
     justify-content: center;
-    
-    .homeQuotes{
-        margin: 10px;
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        
+        .homeQuotes{
+            margin: 5px;
+        }
     }
+    
 }

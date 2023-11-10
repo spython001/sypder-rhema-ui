@@ -10,11 +10,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: gray;
+  background: #1e1e24;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #1e1e24;
+  background: gray;
 }
 
 
