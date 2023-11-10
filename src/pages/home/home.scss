@@ -1,4 +1,9 @@
 .home{
     flex:20;
     background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    .homeQuotes{
+        
+    }
 }

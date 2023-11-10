@@ -1,6 +1,7 @@
 // QuotePage.js
+import './quotesPage.scss'
 import  { useState } from 'react';
-import quotesData from "../../quotes.jsx" // Assuming quotes.js is in the same directory
+import quotesData from "../../quotes.jsx" 
 
 const QuotesPage = () => {
     const [quotes, setQuotes] = useState(quotesData);
@@ -13,9 +14,8 @@ const QuotesPage = () => {
     };
 
   return (
-    <div>
-      <h1>Random Quote</h1>
-      <div onClick={() => getRandomQuote()} className="quote-container">
+    <div className='quotesPage'>
+      <div onClick={() => getRandomQuote()} className="quoteContainer">
         <p>{selectedQuote}</p>
       </div>
     </div>
