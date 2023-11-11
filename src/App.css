@@ -1,6 +1,7 @@
 :root {
   --main-color: #ffffe0;
   --transition-speed: 600ms;
+  background-color: var(--main-color);
 }
 
 .container{
