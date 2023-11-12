@@ -1,0 +1,30 @@
+.about{
+    flex:20;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 80px;
+    padding: 10px;
+
+    .title{
+        font-family: 'Josefin sans', sans-serif;
+        font-size: 1.5rem;
+        line-height: 1rem;
+        font-weight: 600;
+    }
+
+    .wrapper{
+        margin-top: 30px;
+        width: 50%;
+        font-family: 'Varela Round', serif;
+        display: flex;
+        flex-direction: column;
+
+        span{
+            font-size: 1rem;
+            margin-top: 20px; 
+            line-height: 1.5rem;
+        }
+    }
+}

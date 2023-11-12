@@ -4,6 +4,7 @@ import Sidebar from './components/sidebar/Sidebar';
 //import Home from './pages/home/Home';
 //import Single from './pages/single/Single';
 import Write from './pages/write/Write';
+import About from './pages/about/About';
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
 
     <div className="container">
       <Sidebar/>
-      <Write/>
+      <About/>
     </div>
     </>
   )
