@@ -1,42 +1,37 @@
 .about{
     display: flex;
+    flex: 20;
 
     .wrapper{
         flex: 20;
-        padding: 10px;
-        margin-top: 30px;
+        margin-top: 20px;
         display: flex;
-        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
-        .title{
-            display: flex;
-            justify-content: center;
-            margin-left: 200px;
-
-            .spanTitle{
-                font-family: 'Josefin sans', sans-serif;
-                font-size: 1.5rem;
-                line-height: 1rem;
-                font-weight: 600;
-                margin-top: 10px;
-            }
-            
-        }
-    
-        .spanContent{
+        .spanTitle{
             margin-top: 30px;
+            margin-right: 50px;
+            font-family: 'Josefin sans', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .spanContent{
             width: 50%;
-            font-family: 'Varela Round', serif;
             display: flex;
+            align-items: center;
             flex-direction: column;
-    
+            margin-top: 20px;
+            font-family: 'Varela Round', serif;
+            padding: 10px;
+
             span{
+                margin: 10px;
                 font-size: 1rem;
-                margin-top: 20px; 
                 line-height: 1.5rem;
             }
         }
     }
 
-    
 }
