@@ -18,10 +18,10 @@ function App() {
         <div className="container">
           <Switch>
             <Route exact path='/'>
-              <Home/>
+             <Home/> 
             </Route>
 
-            <Route path="/register">{user ? <Home /> : <Register /> }</Route>
+            <Route path="/register">{ user ? <Home /> : <Register /> }</Route>
             <Route path="/login">{ user ? <Home /> : <Login /> }</Route>
             
             <Route path="/write">{ user ? <Write /> : <Register />}</Route>
