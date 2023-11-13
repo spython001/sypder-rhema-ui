@@ -1,0 +1,58 @@
+.login{
+    flex:20;
+    height: calc(100vh - 4.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('/assets/reg.png');
+    background-size: cover;
+
+    span{
+        margin-bottom: 20px;
+        margin-top: 10px;
+        color: #f0e3e3;
+        font-size: 3rem;
+        font-family: 'Josefin sans' sans-serif;
+    }
+
+    form{
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+
+        label{
+            margin: 15px 0;
+            color: #f0f0f0;
+            font-family: 'Varela Round' serif;
+            font-size: 1.2rem;
+        }
+
+        input{
+            padding: 10px;
+            background-color: #fff;
+            border: none;
+        }
+
+        button{
+            margin-top: 25px;
+            cursor: pointer;
+            background-color: teal;
+            border:none;
+            border-radius: 10px;
+            padding: 10px;
+            color: #fff;
+        }
+    }
+
+   .logRegButton{
+    margin-top: 35px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+   }
+
+}
