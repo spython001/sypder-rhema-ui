@@ -5,6 +5,7 @@ import Sidebar from './components/sidebar/Sidebar';
 //import Single from './pages/single/Single';
 import Write from './pages/write/Write';
 import About from './pages/about/About';
+import Register from './pages/register/Register';
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
 
     <div className="container">
       <Sidebar/>
-      <About/>
+      <Register/>
     </div>
     </>
   )

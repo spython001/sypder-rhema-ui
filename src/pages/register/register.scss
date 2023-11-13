@@ -1,0 +1,10 @@
+.register{
+    flex:20;
+    height: calc(100vh - 4.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('/assets/reg.jpg');
+    background-size: cover;
+}
