@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './post.scss'
 
 export default function Post() {
@@ -6,7 +7,9 @@ export default function Post() {
         <img src="/assets/post.png" alt="" />
 
         <div className="postInfo">
-            <span className="postTitle">Lorem ipsum dolor sit</span>
+            <Link to='/post/abc' className='link'>
+              <span className="postTitle">Lorem ipsum dolor sit</span>
+            </Link>
             <hr />
             <span className="postDate">1 hour ago</span>
         </div>

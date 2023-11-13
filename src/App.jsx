@@ -14,23 +14,23 @@ function App() {
 
   return (
     <Router>
-      <Switch>
         <Topbar/>
         <div className="container">
-          <Route exact path='/'>
-            <Home/>
-          </Route>
+          <Switch>
+            <Route exact path='/'>
+              <Home/>
+            </Route>
 
-          <Route path="/register">{user ? <Home /> : <Register /> }</Route>
-          <Route path="/login">{ user ? <Home /> : <Login /> }</Route>
-          
-          <Route path="/write">{ user ? <Write /> : <Register />}</Route>
-          <Route path='/about'>{ user ? <About/> : <Register/> }</Route>
-          <Route path="/post/:postId">
-            <Single />
-          </Route>
+            <Route path="/register">{user ? <Home /> : <Register /> }</Route>
+            <Route path="/login">{ user ? <Home /> : <Login /> }</Route>
+            
+            <Route path="/write">{ user ? <Write /> : <Register />}</Route>
+            <Route path='/about'>{ user ? <About/> : <Register/> }</Route>
+            <Route path="/post/:postId">
+              <Single />
+            </Route>
+            </Switch>
         </div>
-      </Switch>
     </Router>
   )
 }
