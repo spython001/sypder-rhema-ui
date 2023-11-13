@@ -1,7 +1,10 @@
+import Sidebar from '../../components/sidebar/Sidebar'
 import './write.scss'
 export default function Write() {
   return (
     <div className='write'>
+      <Sidebar/>
+      <div className="wrapper">
         <img src="/assets/post.png" alt="" />
 
         <form>
@@ -19,6 +22,7 @@ export default function Write() {
               <i className="button fa-solid fa-rocket fa-beat"></i>
             </button>
         </form>
+      </div>
     </div>
   )
 }

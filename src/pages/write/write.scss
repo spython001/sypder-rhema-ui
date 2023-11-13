@@ -1,89 +1,92 @@
 .write{
-    flex: 20;
-    padding-top: 30px;
-
-    img{
-        margin-left: 150px;
-        width: 70vw;
-        height: 350px;
-        object-fit: cover;
-        border-radius: 7px;
-    }
-
-    form{
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-
-        div{
+    display: flex;
+    
+    .wrapper{
+        flex: 20;
+        padding-top: 20px;
+        img{
             margin-left: 150px;
+            width: 70vw;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 7px;
+        }
+    
+        form{
             display: flex;
             flex-direction: column;
-
-            label{
-                margin-left: 420px;
-
-                .writeIcon{
-                    width: 30px;
-                    height: 30px;
-                    border-radius: 50%;
-                    border: 1px solid;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+            margin-top: 20px;
+    
+            div{
+                margin-left: 150px;
+                display: flex;
+                flex-direction: column;
+    
+                label{
+                    margin-left: 420px;
+    
+                    .writeIcon{
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        border: 1px solid;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+    
+                .writeInput{
+                    margin-top:10px;
+                    width: 70vw;
+                    border: none;
+                    background-color: var(--main-color);
+                    padding: 20px 0px;
+                    color: #111010;
+                    font-size: 1rem;
+                    
+                    &:focus{
+                        outline: none;
+                    }
+    
+                    &::placeholder{
+                        font-family: 'Josefin', sans-serif;
+                        font-size: 1rem;
+                        color: #666;
+                    }
                 }
             }
-
-            .writeInput{
-                margin-top:10px;
-                width: 70vw;
+    
+            .writeFormGroup{
+                margin-top: 10px;
+    
+                textarea{
+                    height: 100vh;
+                    
+                    &:focus{
+                        outline: none;
+                    }
+    
+                    &::placeholder{
+                        font-family: 'Varela Round', serif;
+                        font-size: 1rem;
+                        color: #666;
+                    }
+                }
+            }
+    
+            button{
+                display: flex;
+                align-items: center;
+                margin-left: 550px;
                 border: none;
                 background-color: var(--main-color);
-                padding: 20px 0px;
-                color: #111010;
-                font-size: 1rem;
-                
-                &:focus{
-                    outline: none;
-                }
-
-                &::placeholder{
-                    font-family: 'Josefin', sans-serif;
-                    font-size: 1rem;
-                    color: #666;
-                }
+                margin-top: 30px;
+                padding: 5px;
+                color: teal;
+                font-size: 2rem;
             }
         }
-
-        .writeFormGroup{
-            margin-top: 10px;
-
-            textarea{
-                height: 100vh;
-                
-                &:focus{
-                    outline: none;
-                }
-
-                &::placeholder{
-                    font-family: 'Varela Round', serif;
-                    font-size: 1rem;
-                    color: #666;
-                }
-            }
-        }
-
-        button{
-            display: flex;
-            align-items: center;
-            margin-left: 550px;
-            border: none;
-            background-color: var(--main-color);
-            margin-top: 30px;
-            padding: 5px;
-            color: teal;
-            font-size: 2rem;
-        }
+    
     }
-
 }
