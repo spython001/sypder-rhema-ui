@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url('/assets/reg.png');
+    background: url('/assets/log.png');
     background-size: cover;
 
     span{
@@ -33,6 +33,12 @@
             padding: 10px;
             background-color: #fff;
             border: none;
+            color: black;
+            font-size: 0.9rem;
+
+            &:focus{
+                outline: none;
+            }
         }
 
         button{
@@ -53,6 +59,7 @@
     border: none;
     border-radius: 10px;
     color: white;
+    margin-left: 20px;
    }
 
 }

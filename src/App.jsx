@@ -5,6 +5,7 @@ import Single from './pages/single/Single';
 import Write from './pages/write/Write';
 import About from './pages/about/About';
 import Register from './pages/register/Register';
+import Login from './pages/login/Login'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
     <>
     <Topbar/>
     <div className="container">
-      <Register/>
+      <Login/>
     </div>
     </>
   )
