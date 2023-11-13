@@ -12,7 +12,7 @@ function App() {
     <>
     <Topbar/>
     <div className="container">
-      <About/>
+      <Register/>
     </div>
     </>
   )
